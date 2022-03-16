@@ -3,7 +3,7 @@
 
 void input_string(char *a)
 {
- printf("Enter your string\n");
+ printf("Enter your string:");
  scanf("%s", a);
 }
 
@@ -24,7 +24,7 @@ char *str_reverse(char *a)
 
 void output(char *a, char *reverse)
 {
- printf("%s %s\n",a,reverse);
+ printf("%s %s",a,reverse);
 }
 
 int main()
